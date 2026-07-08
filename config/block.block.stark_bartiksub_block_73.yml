@@ -1,0 +1,28 @@
+uuid: 0c9a1249-d971-4ca1-b982-7ec0781e5a6e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2ebbc168-7c58-49ce-a089-9394d3cd8ddd'
+  module:
+    - block_content
+    - system
+  theme:
+    - stark
+id: stark_bartiksub_block_73
+theme: stark
+region: content
+weight: -44
+provider: null
+plugin: 'block_content:2ebbc168-7c58-49ce-a089-9394d3cd8ddd'
+settings:
+  id: 'block_content:2ebbc168-7c58-49ce-a089-9394d3cd8ddd'
+  label: 'Our very own self-help book!'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

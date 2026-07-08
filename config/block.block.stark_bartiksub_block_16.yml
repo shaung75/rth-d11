@@ -1,0 +1,37 @@
+uuid: fff9568d-f158-4317-b00f-939e406b2182
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:653f8176-8907-47e7-af9f-7a7b56762259'
+  module:
+    - block_content
+    - system
+  theme:
+    - stark
+id: stark_bartiksub_block_16
+theme: stark
+region: content
+weight: -41
+provider: null
+plugin: 'block_content:653f8176-8907-47e7-af9f-7a7b56762259'
+settings:
+  id: 'block_content:653f8176-8907-47e7-af9f-7a7b56762259'
+  label: 'Contact Us'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: |-
+      /R-EXdata
+      /whats-on/previous
+      /virtual*
+      /photoshoot-images
+      /map
+      /user
+      /user*
+      /data
+      /data/*

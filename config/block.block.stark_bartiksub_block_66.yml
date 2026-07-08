@@ -1,0 +1,28 @@
+uuid: 9238c126-e4d8-413d-a967-634f30cbc000
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a1012589-1fdb-4ae8-b0ec-3121c22feae8'
+  module:
+    - block_content
+    - system
+  theme:
+    - stark
+id: stark_bartiksub_block_66
+theme: stark
+region: content
+weight: -35
+provider: null
+plugin: 'block_content:a1012589-1fdb-4ae8-b0ec-3121c22feae8'
+settings:
+  id: 'block_content:a1012589-1fdb-4ae8-b0ec-3121c22feae8'
+  label: 'Norbury Park House'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /consultancy

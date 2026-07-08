@@ -1,0 +1,30 @@
+uuid: 06a53703-a387-4c52-acfa-632da894b81c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b71db339-719e-47cf-bc5b-dafcdc8c35c0'
+  module:
+    - block_content
+    - system
+  theme:
+    - stark
+id: stark_bartiksub_block_74
+theme: stark
+region: content
+weight: -45
+provider: null
+plugin: 'block_content:b71db339-719e-47cf-bc5b-dafcdc8c35c0'
+settings:
+  id: 'block_content:b71db339-719e-47cf-bc5b-dafcdc8c35c0'
+  label: 'Stable Appeal'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: |-
+      <front>
+      /support

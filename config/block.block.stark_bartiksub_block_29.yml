@@ -1,0 +1,23 @@
+uuid: dae9f71d-7558-4f75-bfc7-38fd6acbe10a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b542cb22-01a2-4f21-9c72-939f869bbe55'
+  module:
+    - block_content
+  theme:
+    - stark
+id: stark_bartiksub_block_29
+theme: stark
+region: content
+weight: -35
+provider: null
+plugin: 'block_content:b542cb22-01a2-4f21-9c72-939f869bbe55'
+settings:
+  id: 'block_content:b542cb22-01a2-4f21-9c72-939f869bbe55'
+  label: ''
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

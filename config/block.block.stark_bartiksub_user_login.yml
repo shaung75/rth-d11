@@ -1,0 +1,25 @@
+uuid: b81c5c77-f8da-4709-b658-ada26a8e4523
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - stark
+id: stark_bartiksub_user_login
+theme: stark
+region: content
+weight: -43
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: ''
+  label_display: '0'
+  provider: user
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /login

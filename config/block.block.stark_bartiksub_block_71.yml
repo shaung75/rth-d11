@@ -1,0 +1,47 @@
+uuid: b6ca9fa1-4353-40bf-9305-fb61a93546a5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ac218e0f-eb3b-4902-bc9e-1437eb41ea38'
+  module:
+    - block_content
+    - system
+  theme:
+    - stark
+id: stark_bartiksub_block_71
+theme: stark
+region: content
+weight: -40
+provider: null
+plugin: 'block_content:ac218e0f-eb3b-4902-bc9e-1437eb41ea38'
+settings:
+  id: 'block_content:ac218e0f-eb3b-4902-bc9e-1437eb41ea38'
+  label: 'Sign up for our Newsletter'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: |-
+      /R-EXdata
+      /whats-on/previous
+      /virtual*
+      /photoshoot-images
+      /here-in-the-past
+      /here-in-the-past*
+      /map
+      /test
+      /shop*
+      /collections/bevan-dewar-letters*
+      /collections/bevan
+      /collections/bevan/*
+      /histories/family-history
+      /histories/family-history/*
+      /user*
+      /admin*
+      /data
+      /data/*
+      /consultancy

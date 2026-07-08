@@ -1,0 +1,28 @@
+uuid: 4d6db11b-caea-4183-8753-a1f87716245c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3586490d-791f-4c4f-89cd-3272a8befbdb'
+  module:
+    - block_content
+    - system
+  theme:
+    - stark
+id: stark_bartiksub_block_68
+theme: stark
+region: content
+weight: -33
+provider: null
+plugin: 'block_content:3586490d-791f-4c4f-89cd-3272a8befbdb'
+settings:
+  id: 'block_content:3586490d-791f-4c4f-89cd-3272a8befbdb'
+  label: "Skinners' Hall"
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /consultancy

@@ -1,0 +1,28 @@
+uuid: 5f1478c1-31f3-4b7e-a0b1-7658040b9fe6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3e58f7a8-9dfb-4765-91cf-b620af5ffc9d'
+  module:
+    - block_content
+    - system
+  theme:
+    - stark
+id: stark_bartiksub_block_48
+theme: stark
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:3e58f7a8-9dfb-4765-91cf-b620af5ffc9d'
+settings:
+  id: 'block_content:3e58f7a8-9dfb-4765-91cf-b620af5ffc9d'
+  label: 'Local History'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

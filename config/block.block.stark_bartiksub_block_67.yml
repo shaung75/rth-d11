@@ -1,0 +1,28 @@
+uuid: 29e49a6e-a904-453f-b669-e8814249a7aa
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cf8b385b-ee5e-45f2-97d5-ccfe7299e38d'
+  module:
+    - block_content
+    - system
+  theme:
+    - stark
+id: stark_bartiksub_block_67
+theme: stark
+region: content
+weight: -34
+provider: null
+plugin: 'block_content:cf8b385b-ee5e-45f2-97d5-ccfe7299e38d'
+settings:
+  id: 'block_content:cf8b385b-ee5e-45f2-97d5-ccfe7299e38d'
+  label: 'Raven Row'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /consultancy

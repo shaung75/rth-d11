@@ -1,0 +1,19 @@
+uuid: 2e5838b7-14d6-48bf-96c6-cb9092de02be
+langcode: en
+status: true
+dependencies:
+  theme:
+    - stark
+id: stark_bartiksub_forum_active
+theme: stark
+region: content
+weight: -8
+provider: null
+plugin: forum_active_block
+settings:
+  id: broken
+  label: ''
+  label_display: '0'
+  provider: core
+  block_count: 5
+visibility: {  }

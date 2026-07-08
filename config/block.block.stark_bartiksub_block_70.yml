@@ -1,0 +1,28 @@
+uuid: fee0004d-6ba9-4852-8254-e4ee7ada3e9d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:071e1e62-4323-4ff6-9ad8-4052399b4e7b'
+  module:
+    - block_content
+    - system
+  theme:
+    - stark
+id: stark_bartiksub_block_70
+theme: stark
+region: content
+weight: -43
+provider: null
+plugin: 'block_content:071e1e62-4323-4ff6-9ad8-4052399b4e7b'
+settings:
+  id: 'block_content:071e1e62-4323-4ff6-9ad8-4052399b4e7b'
+  label: 'Our very own ghost book!'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

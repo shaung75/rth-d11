@@ -1,0 +1,22 @@
+uuid: c53739fc-1dbf-4ff6-9558-a1275b3a51e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stark
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: stark_bartiksub_system_main
+theme: stark
+region: content
+weight: -42
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,30 @@
+uuid: 34529018-5be7-4ade-aeae-2cf3ddc2196a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:62b1c170-45b4-47a6-9139-25d0654d8fcb'
+  module:
+    - block_content
+    - system
+  theme:
+    - stark
+id: stark_bartiksub_block_55
+theme: stark
+region: content
+weight: -41
+provider: null
+plugin: 'block_content:62b1c170-45b4-47a6-9139-25d0654d8fcb'
+settings:
+  id: 'block_content:62b1c170-45b4-47a6-9139-25d0654d8fcb'
+  label: 'Lottery Funded'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: |-
+      /here-in-the-past
+      /here-in-the-past/*

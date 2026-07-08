@@ -1,0 +1,28 @@
+uuid: efe42098-cff8-4262-b2d6-0299d635525e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:00106136-0e02-46f5-9563-f5b8fb705b8d'
+  module:
+    - block_content
+    - system
+  theme:
+    - stark
+id: stark_bartiksub_block_51
+theme: stark
+region: content
+weight: -34
+provider: null
+plugin: 'block_content:00106136-0e02-46f5-9563-f5b8fb705b8d'
+settings:
+  id: 'block_content:00106136-0e02-46f5-9563-f5b8fb705b8d'
+  label: 'Feature one'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /test

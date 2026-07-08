@@ -1,0 +1,28 @@
+uuid: 2ff71d90-19a5-40af-bc14-79fdbedcfc11
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b91f8e03-8fe5-4b04-973a-943fedaca5f6'
+  module:
+    - block_content
+    - system
+  theme:
+    - stark
+id: stark_bartiksub_block_3
+theme: stark
+region: content
+weight: -35
+provider: null
+plugin: 'block_content:b91f8e03-8fe5-4b04-973a-943fedaca5f6'
+settings:
+  id: 'block_content:b91f8e03-8fe5-4b04-973a-943fedaca5f6'
+  label: 'My House My Street'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
