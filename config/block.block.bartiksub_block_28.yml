@@ -1,0 +1,23 @@
+uuid: 4d6da050-b3af-4d49-ab47-6b42de79cc7d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:bb6d4031-90b8-4a96-a4df-4332695f5a4d'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: bartiksub_block_28
+theme: olivero
+region: content
+weight: -35
+provider: null
+plugin: 'block_content:bb6d4031-90b8-4a96-a4df-4332695f5a4d'
+settings:
+  id: 'block_content:bb6d4031-90b8-4a96-a4df-4332695f5a4d'
+  label: ''
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

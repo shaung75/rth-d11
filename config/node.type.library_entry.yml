@@ -1,0 +1,19 @@
+uuid: 208758b2-d500-4805-84c6-2b611e4b34d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+      - tools
+    parent: 'main:'
+name: 'Library entry'
+type: library_entry
+description: 'Use to list a book in the Town House library'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

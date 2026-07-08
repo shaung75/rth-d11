@@ -1,0 +1,19 @@
+uuid: 28d3d053-bda2-48fd-878c-c6a598b82280
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+      - tools
+    parent: 'main:'
+name: 'Tagged page'
+type: tagged_page
+description: 'Use this as a basic page.'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

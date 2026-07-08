@@ -1,0 +1,28 @@
+uuid: 53de6dff-aeed-41d9-9a6c-dfbee1fb27cf
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:c5432d86-137d-42f7-86b2-a6f78d84e464'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: bartik_block_65
+theme: bartik
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:c5432d86-137d-42f7-86b2-a6f78d84e464'
+settings:
+  id: 'block_content:c5432d86-137d-42f7-86b2-a6f78d84e464'
+  label: 'North Great George Street'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /consultancy

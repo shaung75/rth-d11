@@ -1,0 +1,32 @@
+uuid: 2a3aa3e2-bb5c-4554-bd3d-d6ffb3710355
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:d30ab1ac-acbb-4e44-8535-4384a4ad0835'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: bartik_block_9
+theme: bartik
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:d30ab1ac-acbb-4e44-8535-4384a4ad0835'
+settings:
+  id: 'block_content:d30ab1ac-acbb-4e44-8535-4384a4ad0835'
+  label: "What's on"
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: |-
+      /past-events
+      /past-events/*
+      /about
+      /about/*

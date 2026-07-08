@@ -1,0 +1,8 @@
+uuid: 1ea94414-5f27-461b-977e-3c913595800e
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_charactersblog
+label: 'CharactersBlog comment'
+target_entity_type_id: node
+description: null

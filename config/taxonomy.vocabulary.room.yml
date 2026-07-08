@@ -1,0 +1,9 @@
+uuid: f17d5a21-fab6-4f4f-b2d0-50294567868a
+langcode: en
+status: true
+dependencies: {  }
+name: Room
+vid: room
+description: 'In the Town House. Used in Library entry content type for the location of the book.'
+weight: 0
+new_revision: false

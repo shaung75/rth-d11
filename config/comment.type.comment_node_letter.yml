@@ -1,0 +1,8 @@
+uuid: b9ef1482-8e24-459c-850a-9d0ce6cba07e
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_letter
+label: 'Letter comment'
+target_entity_type_id: node
+description: null

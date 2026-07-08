@@ -1,0 +1,28 @@
+uuid: e2165338-cdfc-4604-ad81-6d4266a82b80
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:5fe4104f-3001-4d32-a105-ca3a4379919f'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: bartik_block_6
+theme: bartik
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:5fe4104f-3001-4d32-a105-ca3a4379919f'
+settings:
+  id: 'block_content:5fe4104f-3001-4d32-a105-ca3a4379919f'
+  label: 'Bevan and Dewar letters'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

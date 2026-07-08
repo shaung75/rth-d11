@@ -1,0 +1,55 @@
+uuid: 38dd718b-100b-4c95-98e8-d01a3e2e86a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_tagged_page.default
+    - field.field.node.tagged_page.body
+    - field.field.node.tagged_page.comment_node_tagged_page
+    - field.field.node.tagged_page.field_image
+    - field.field.node.tagged_page.field_tags
+    - node.type.tagged_page
+  module:
+    - comment
+    - image
+    - text
+    - user
+id: node.tagged_page.default
+targetEntityType: node
+bundle: tagged_page
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  comment_node_tagged_page:
+    type: comment_default
+    label: hidden
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: file
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_tags: true

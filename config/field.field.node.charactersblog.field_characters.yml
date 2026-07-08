@@ -1,0 +1,21 @@
+uuid: 29251777-17df-4cf9-9062-aef12528b248
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_characters
+    - node.type.charactersblog
+  module:
+    - options
+id: node.charactersblog.field_characters
+field_name: field_characters
+entity_type: node
+bundle: charactersblog
+label: Character
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

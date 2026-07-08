@@ -1,0 +1,19 @@
+uuid: 1878a40b-4bdd-45db-9e98-13e07f9abead
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+      - tools
+    parent: 'main:'
+name: CharactersBlog
+type: charactersblog
+description: null
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

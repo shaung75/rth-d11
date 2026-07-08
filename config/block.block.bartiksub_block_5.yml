@@ -1,0 +1,23 @@
+uuid: 9d3bcb70-76eb-4d01-8301-be1c5fd947d6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:18be2a0a-cd19-4425-b4ff-328c3b9946ae'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: bartiksub_block_5
+theme: olivero
+region: content
+weight: -25
+provider: null
+plugin: 'block_content:18be2a0a-cd19-4425-b4ff-328c3b9946ae'
+settings:
+  id: 'block_content:18be2a0a-cd19-4425-b4ff-328c3b9946ae'
+  label: 'Brighton and Hove History'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility: {  }

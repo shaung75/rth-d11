@@ -1,0 +1,19 @@
+uuid: 9a499802-489e-4a43-815b-bec737ed0466
+langcode: en
+status: true
+dependencies:
+  theme:
+    - olivero
+id: bartiksub_forum_active
+theme: olivero
+region: content
+weight: -8
+provider: null
+plugin: forum_active_block
+settings:
+  id: broken
+  label: ''
+  label_display: '0'
+  provider: core
+  block_count: 5
+visibility: {  }

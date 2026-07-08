@@ -1,0 +1,8 @@
+uuid: 0f080e24-151d-472d-b708-23c5e2b2385e
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_library_entry
+label: 'Library entry comment'
+target_entity_type_id: node
+description: null

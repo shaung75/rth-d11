@@ -1,0 +1,19 @@
+uuid: 8679132c-f924-4067-bc05-83609e3ddbef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_library_publisher
+    - node.type.library_entry
+id: node.library_entry.field_library_publisher
+field_name: field_library_publisher
+entity_type: node
+bundle: library_entry
+label: Publisher
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

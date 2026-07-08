@@ -1,0 +1,18 @@
+uuid: 9d520f04-a445-4f15-838d-bd0794b7a17d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.charactersblog
+id: node.charactersblog.title
+field_name: title
+entity_type: node
+bundle: charactersblog
+label: CharactersBlog
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

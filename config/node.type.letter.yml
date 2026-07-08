@@ -1,0 +1,19 @@
+uuid: ae70c619-8d70-45ee-bd52-fa9ecd2ca22f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+      - tools
+    parent: 'main:'
+name: Letter
+type: letter
+description: 'Use for the Bevan and Dewar family letter transcriptions.'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

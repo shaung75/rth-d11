@@ -1,0 +1,102 @@
+uuid: acc4f6b3-aa03-4def-a206-af1009a06638
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+    - node.type.article
+    - node.type.blog
+    - node.type.book
+    - node.type.charactersblog
+    - node.type.exhibition
+    - node.type.forum
+    - node.type.gallery
+    - node.type.letter
+    - node.type.library_entry
+    - node.type.page
+    - node.type.tagged_page
+  module:
+    - block
+    - comment
+    - contextual
+    - filter
+    - node
+    - path
+    - system
+    - toolbar
+id: editor
+label: editor
+weight: 4
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer blocks'
+  - 'administer filters'
+  - 'administer menu'
+  - 'administer modules'
+  - 'administer url aliases'
+  - 'change own username'
+  - 'create article content'
+  - 'create blog content'
+  - 'create book content'
+  - 'create charactersblog content'
+  - 'create exhibition content'
+  - 'create forum content'
+  - 'create gallery content'
+  - 'create letter content'
+  - 'create library_entry content'
+  - 'create page content'
+  - 'create tagged_page content'
+  - 'create url aliases'
+  - 'delete any article content'
+  - 'delete any blog content'
+  - 'delete any book content'
+  - 'delete any charactersblog content'
+  - 'delete any exhibition content'
+  - 'delete any forum content'
+  - 'delete any gallery content'
+  - 'delete any letter content'
+  - 'delete any library_entry content'
+  - 'delete any page content'
+  - 'delete any tagged_page content'
+  - 'delete own article content'
+  - 'delete own blog content'
+  - 'delete own book content'
+  - 'delete own charactersblog content'
+  - 'delete own exhibition content'
+  - 'delete own forum content'
+  - 'delete own gallery content'
+  - 'delete own letter content'
+  - 'delete own library_entry content'
+  - 'delete own page content'
+  - 'delete own tagged_page content'
+  - 'edit any article content'
+  - 'edit any blog content'
+  - 'edit any book content'
+  - 'edit any charactersblog content'
+  - 'edit any exhibition content'
+  - 'edit any forum content'
+  - 'edit any gallery content'
+  - 'edit any letter content'
+  - 'edit any library_entry content'
+  - 'edit any page content'
+  - 'edit any tagged_page content'
+  - 'edit own article content'
+  - 'edit own blog content'
+  - 'edit own book content'
+  - 'edit own charactersblog content'
+  - 'edit own comments'
+  - 'edit own exhibition content'
+  - 'edit own forum content'
+  - 'edit own gallery content'
+  - 'edit own letter content'
+  - 'edit own library_entry content'
+  - 'edit own page content'
+  - 'edit own tagged_page content'
+  - 'use text format full_html'
+  - 'view own unpublished content'
+  - 'view the administration theme'

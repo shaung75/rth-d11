@@ -1,0 +1,62 @@
+uuid: 084014ae-64d2-430b-8521-842990e88cd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+    - node.type.article
+    - node.type.blog
+    - node.type.book
+    - node.type.exhibition
+    - node.type.forum
+    - node.type.letter
+    - node.type.library_entry
+    - node.type.page
+    - node.type.tagged_page
+  module:
+    - filter
+    - node
+    - path
+    - search
+    - system
+    - toolbar
+id: volunteer
+label: volunteer
+weight: 2
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access toolbar'
+  - 'change own username'
+  - 'create article content'
+  - 'create blog content'
+  - 'create book content'
+  - 'create exhibition content'
+  - 'create forum content'
+  - 'create letter content'
+  - 'create library_entry content'
+  - 'create page content'
+  - 'create tagged_page content'
+  - 'create url aliases'
+  - 'delete own article content'
+  - 'delete own blog content'
+  - 'delete own book content'
+  - 'delete own exhibition content'
+  - 'delete own forum content'
+  - 'delete own letter content'
+  - 'delete own library_entry content'
+  - 'delete own page content'
+  - 'delete own tagged_page content'
+  - 'edit own article content'
+  - 'edit own blog content'
+  - 'edit own book content'
+  - 'edit own exhibition content'
+  - 'edit own forum content'
+  - 'edit own letter content'
+  - 'edit own library_entry content'
+  - 'edit own page content'
+  - 'edit own tagged_page content'
+  - 'search content'
+  - 'use advanced search'
+  - 'use text format full_html'
+  - 'view own unpublished content'

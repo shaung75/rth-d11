@@ -1,0 +1,21 @@
+uuid: b4bc4105-f212-4be8-911b-7da51bac55a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_author_date
+    - node.type.charactersblog
+  module:
+    - datetime
+id: node.charactersblog.field_author_date
+field_name: field_author_date
+entity_type: node
+bundle: charactersblog
+label: Date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

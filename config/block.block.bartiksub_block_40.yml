@@ -1,0 +1,28 @@
+uuid: 270d2a85-f276-45f7-aee8-378596dd1451
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2a4a8c23-acc7-451d-b3ae-88aea845a26f'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: bartiksub_block_40
+theme: olivero
+region: content
+weight: -43
+provider: null
+plugin: 'block_content:2a4a8c23-acc7-451d-b3ae-88aea845a26f'
+settings:
+  id: 'block_content:2a4a8c23-acc7-451d-b3ae-88aea845a26f'
+  label: 'Our other websites'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

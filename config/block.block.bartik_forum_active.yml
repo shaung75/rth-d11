@@ -1,0 +1,19 @@
+uuid: 10d12a43-996a-44a9-8216-2b293b9ebad1
+langcode: en
+status: false
+dependencies:
+  theme:
+    - bartik
+id: bartik_forum_active
+theme: bartik
+region: ''
+weight: -8
+provider: null
+plugin: forum_active_block
+settings:
+  id: broken
+  label: ''
+  label_display: '0'
+  provider: core
+  block_count: 5
+visibility: {  }

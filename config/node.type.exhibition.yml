@@ -1,0 +1,19 @@
+uuid: d22c32ca-f42a-432d-b0b3-4b561b6e9b00
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+      - tools
+    parent: 'main:'
+name: Event
+type: exhibition
+description: 'Use to describe exhibitions, tours etc.'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

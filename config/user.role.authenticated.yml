@@ -1,0 +1,25 @@
+uuid: 077283fe-bfc4-4aca-8484-8f0938c530a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.filtered_html
+  module:
+    - comment
+    - filter
+    - search
+    - system
+_core:
+  default_config_hash: hcfESiA8tr3D1muRk2KF7tbcun16ZJlG1R5SzKGed6g
+id: authenticated
+label: 'authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use advanced search'
+  - 'use text format filtered_html'

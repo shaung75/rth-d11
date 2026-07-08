@@ -1,0 +1,42 @@
+uuid: 32495a05-af85-4c3c-9903-1313df07210b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_gallery.default
+    - field.field.node.gallery.body
+    - field.field.node.gallery.comment_node_gallery
+    - field.field.node.gallery.field_images
+    - node.type.gallery
+  module:
+    - comment
+    - text
+    - user
+id: node.gallery.default
+targetEntityType: node
+bundle: gallery
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  comment_node_gallery:
+    type: comment_default
+    label: hidden
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_images: true

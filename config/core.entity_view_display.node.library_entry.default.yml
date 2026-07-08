@@ -1,0 +1,87 @@
+uuid: 47b5c9b9-6f43-475c-89c9-3f578eceea4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_library_entry.default
+    - field.field.node.library_entry.body
+    - field.field.node.library_entry.comment_node_library_entry
+    - field.field.node.library_entry.field_dewey
+    - field.field.node.library_entry.field_library_author
+    - field.field.node.library_entry.field_library_categories
+    - field.field.node.library_entry.field_library_publisher
+    - field.field.node.library_entry.field_library_room
+    - field.field.node.library_entry.field_publish_year
+    - node.type.library_entry
+  module:
+    - comment
+    - text
+    - user
+id: node.library_entry.default
+targetEntityType: node
+bundle: library_entry
+mode: default
+content:
+  body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  comment_node_library_entry:
+    type: comment_default
+    label: hidden
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_dewey:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_library_author:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_library_categories:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_library_publisher:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_publish_year:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_library_room: true

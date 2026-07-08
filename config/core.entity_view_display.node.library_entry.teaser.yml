@@ -1,0 +1,44 @@
+uuid: 7634ad7a-3a34-47ae-87a9-45b70a7fcb8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.library_entry.body
+    - field.field.node.library_entry.comment_node_library_entry
+    - field.field.node.library_entry.field_dewey
+    - field.field.node.library_entry.field_library_author
+    - field.field.node.library_entry.field_library_categories
+    - field.field.node.library_entry.field_library_publisher
+    - field.field.node.library_entry.field_library_room
+    - field.field.node.library_entry.field_publish_year
+    - node.type.library_entry
+  module:
+    - text
+    - user
+id: node.library_entry.teaser
+targetEntityType: node
+bundle: library_entry
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  comment_node_library_entry: true
+  field_dewey: true
+  field_library_author: true
+  field_library_categories: true
+  field_library_publisher: true
+  field_library_room: true
+  field_publish_year: true

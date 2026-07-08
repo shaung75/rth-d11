@@ -1,0 +1,24 @@
+uuid: f633e227-6a05-464d-af53-5ef477cdae7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.tagged_page
+  module:
+    - text
+id: node.tagged_page.body
+field_name: body
+entity_type: node
+bundle: tagged_page
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

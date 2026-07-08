@@ -1,0 +1,83 @@
+uuid: d3556e39-4916-4257-a8e0-fb23dbc1dd5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_exhibition.default
+    - field.field.node.exhibition.body
+    - field.field.node.exhibition.comment_node_exhibition
+    - field.field.node.exhibition.field_event_type
+    - field.field.node.exhibition.field_image
+    - field.field.node.exhibition.field_price
+    - field.field.node.exhibition.field_tags
+    - node.type.exhibition
+  module:
+    - comment
+    - image
+    - text
+    - user
+id: node.exhibition.default
+targetEntityType: node
+bundle: exhibition
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  comment_node_exhibition:
+    type: comment_default
+    label: hidden
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_event_type:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_price:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ' '
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

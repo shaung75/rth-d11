@@ -1,0 +1,26 @@
+uuid: ac8399be-aeb6-4629-84d4-d5fa417d76e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_type
+    - node.type.exhibition
+    - taxonomy.vocabulary.event_type
+id: node.exhibition.field_event_type
+field_name: field_event_type
+entity_type: node
+bundle: exhibition
+label: Type
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      event_type: event_type
+    sort:
+      field: _none
+field_type: entity_reference

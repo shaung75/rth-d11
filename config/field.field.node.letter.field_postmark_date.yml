@@ -1,0 +1,21 @@
+uuid: cfed2324-2554-4861-a75b-3d9b42b0f1d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_postmark_date
+    - node.type.letter
+  module:
+    - datetime
+id: node.letter.field_postmark_date
+field_name: field_postmark_date
+entity_type: node
+bundle: letter
+label: 'Postmark date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,26 @@
+uuid: fd1f804f-8341-48cc-9888-58cfe259081d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_library_room
+    - node.type.library_entry
+    - taxonomy.vocabulary.room
+id: node.library_entry.field_library_room
+field_name: field_library_room
+entity_type: node
+bundle: library_entry
+label: 'Location in Town House'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      room: room
+    sort:
+      field: _none
+field_type: entity_reference

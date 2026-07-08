@@ -1,0 +1,36 @@
+uuid: ee2c4ae4-b9bb-48a9-bcd7-dbe89fc72638
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.charactersblog.body
+    - field.field.node.charactersblog.comment_node_charactersblog
+    - field.field.node.charactersblog.field_author_date
+    - field.field.node.charactersblog.field_characters
+    - node.type.charactersblog
+  module:
+    - text
+    - user
+id: node.charactersblog.teaser
+targetEntityType: node
+bundle: charactersblog
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  comment_node_charactersblog: true
+  field_author_date: true
+  field_characters: true

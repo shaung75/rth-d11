@@ -1,0 +1,37 @@
+uuid: e25d458d-ff69-4ece-9556-61dd74552c7d
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:653f8176-8907-47e7-af9f-7a7b56762259'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: bartik_block_16
+theme: bartik
+region: ''
+weight: -16
+provider: null
+plugin: 'block_content:653f8176-8907-47e7-af9f-7a7b56762259'
+settings:
+  id: 'block_content:653f8176-8907-47e7-af9f-7a7b56762259'
+  label: 'Contact Us'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: |-
+      /R-EXdata
+      /whats-on/previous
+      /virtual*
+      /photoshoot-images
+      /map
+      /user
+      /user*
+      /data
+      /data/*

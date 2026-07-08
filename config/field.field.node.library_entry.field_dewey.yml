@@ -1,0 +1,19 @@
+uuid: 5fb28507-8053-4da1-b1c0-23b13cc0d67d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dewey
+    - node.type.library_entry
+id: node.library_entry.field_dewey
+field_name: field_dewey
+entity_type: node
+bundle: library_entry
+label: 'Dewey classification'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

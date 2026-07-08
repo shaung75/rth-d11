@@ -1,0 +1,24 @@
+uuid: 6525c538-31f5-4828-ac94-0c67322b8d4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.library_entry
+  module:
+    - text
+id: node.library_entry.body
+field_name: body
+entity_type: node
+bundle: library_entry
+label: Synopsis
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

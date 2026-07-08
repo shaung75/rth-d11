@@ -1,0 +1,36 @@
+uuid: ac1516b3-289d-4a2a-a8d9-195c9e77c46e
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:74b777f1-e7ca-40dd-8676-476b1938f203'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: bartik_block_63
+theme: bartik
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:74b777f1-e7ca-40dd-8676-476b1938f203'
+settings:
+  id: 'block_content:74b777f1-e7ca-40dd-8676-476b1938f203'
+  label: 'Emergency funding'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: |-
+      /whats-on/previous
+      /national-lottery
+      /user
+      /user*
+      /consultancy
+      /virtual
+      /virtual*
+      /photoshoot-images

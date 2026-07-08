@@ -1,0 +1,99 @@
+uuid: 3600b38e-9220-4def-98d1-3318067a949a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_letter.default
+    - field.field.node.letter.body
+    - field.field.node.letter.comment_node_letter
+    - field.field.node.letter.field_addressee
+    - field.field.node.letter.field_author
+    - field.field.node.letter.field_author_date
+    - field.field.node.letter.field_image
+    - field.field.node.letter.field_postmark_date
+    - field.field.node.letter.field_recipient
+    - field.field.node.letter.field_topics
+    - node.type.letter
+  module:
+    - comment
+    - datetime
+    - text
+    - user
+id: node.letter.default
+targetEntityType: node
+bundle: letter
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  comment_node_letter:
+    type: comment_default
+    label: hidden
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_addressee:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_author:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_author_date:
+    type: datetime_default
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: short
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_postmark_date:
+    type: datetime_default
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: short
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_recipient:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_topics:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_image: true

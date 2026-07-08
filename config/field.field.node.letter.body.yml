@@ -1,0 +1,24 @@
+uuid: 36ad2b9d-04f0-4c7d-ac90-38f1e5887eb2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.letter
+  module:
+    - text
+id: node.letter.body
+field_name: body
+entity_type: node
+bundle: letter
+label: Transcription
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

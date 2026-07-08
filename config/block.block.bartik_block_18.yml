@@ -1,0 +1,49 @@
+uuid: aa366bbb-e4c7-47a4-b352-e6b3e77ea879
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:59fbc7d2-56c9-4738-a126-246aa04575f7'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: bartik_block_18
+theme: bartik
+region: ''
+weight: 0
+provider: null
+plugin: 'block_content:59fbc7d2-56c9-4738-a126-246aa04575f7'
+settings:
+  id: 'block_content:59fbc7d2-56c9-4738-a126-246aa04575f7'
+  label: 'Find us'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: |-
+      /R-EXdata
+      /whats-on/previous
+      /virtual*
+      /photoshoot-images
+      /here-in-the-past
+      /here-in-the-past*
+      /map
+      /test
+      /shop*
+      /collections/bevan-dewar-letters*
+      /collections/bevan
+      /collections/bevan/*
+      /histories/family-history
+      /histories/family-history/*
+      /user*
+      /admin*
+      /about-us/find-us
+      <front>
+      /data
+      /data/*
+      /consultancy

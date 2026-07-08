@@ -1,0 +1,27 @@
+uuid: ff26ae97-5c2d-4e56-b844-5e33b796322e
+langcode: en
+status: false
+dependencies:
+  module:
+    - user
+  theme:
+    - bartik
+id: bartik_menu_devel
+theme: bartik
+region: ''
+weight: -19
+provider: null
+plugin: 'system_menu_block:devel'
+settings:
+  id: broken
+  label: ''
+  label_display: '0'
+  provider: core
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator

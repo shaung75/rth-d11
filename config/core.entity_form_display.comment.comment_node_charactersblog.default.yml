@@ -1,0 +1,29 @@
+uuid: da119bca-a6c7-44d4-99e1-4da7beb541aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_charactersblog
+    - field.field.comment.comment_node_charactersblog.comment_body
+  module:
+    - text
+id: comment.comment_node_charactersblog.default
+targetEntityType: comment
+bundle: comment_node_charactersblog
+mode: default
+content:
+  author:
+    weight: -2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  comment_body:
+    type: text_textarea
+    weight: 11
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  subject: true

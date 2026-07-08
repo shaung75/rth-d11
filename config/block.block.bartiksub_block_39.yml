@@ -1,0 +1,23 @@
+uuid: b8bc9f9b-94d7-467d-a2a5-d9732c303e11
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:284f2d80-17e0-4879-9514-e4790639c5d2'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: bartiksub_block_39
+theme: olivero
+region: content
+weight: -40
+provider: null
+plugin: 'block_content:284f2d80-17e0-4879-9514-e4790639c5d2'
+settings:
+  id: 'block_content:284f2d80-17e0-4879-9514-e4790639c5d2'
+  label: 'Christmas Schedule'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility: {  }

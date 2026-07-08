@@ -1,0 +1,27 @@
+uuid: 485cab75-5f3c-47db-a622-7158dafd8b0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_library_entry
+    - field.field.comment.comment_node_library_entry.comment_body
+  module:
+    - text
+id: comment.comment_node_library_entry.default
+targetEntityType: comment
+bundle: comment_node_library_entry
+mode: default
+content:
+  comment_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,9 @@
+uuid: ec64609f-e645-40cd-ad74-f1552f32fc9c
+langcode: en
+status: true
+dependencies: {  }
+name: 'Library classification'
+vid: library_classicfication
+description: 'Use to categorise entries in the library entry content type.'
+weight: 0
+new_revision: false
